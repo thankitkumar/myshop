@@ -1,4 +1,2 @@
 web: gunicorn myshop.wsgi
-web:
-python
-run.py
+web: python run.py
